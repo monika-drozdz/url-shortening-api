@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/url-shortening-api/static/css/main.3370198a.chunk.css",
+    "main.js": "/url-shortening-api/static/js/main.14d07dc0.chunk.js",
+    "main.js.map": "/url-shortening-api/static/js/main.14d07dc0.chunk.js.map",
+    "runtime-main.js": "/url-shortening-api/static/js/runtime-main.91ef5806.js",
+    "runtime-main.js.map": "/url-shortening-api/static/js/runtime-main.91ef5806.js.map",
+    "static/js/2.c3917fe2.chunk.js": "/url-shortening-api/static/js/2.c3917fe2.chunk.js",
+    "static/js/2.c3917fe2.chunk.js.map": "/url-shortening-api/static/js/2.c3917fe2.chunk.js.map",
+    "static/js/3.71c4bc82.chunk.js": "/url-shortening-api/static/js/3.71c4bc82.chunk.js",
+    "static/js/3.71c4bc82.chunk.js.map": "/url-shortening-api/static/js/3.71c4bc82.chunk.js.map",
+    "index.html": "/url-shortening-api/index.html",
+    "static/css/main.3370198a.chunk.css.map": "/url-shortening-api/static/css/main.3370198a.chunk.css.map",
+    "static/js/2.c3917fe2.chunk.js.LICENSE.txt": "/url-shortening-api/static/js/2.c3917fe2.chunk.js.LICENSE.txt",
+    "static/media/Boost.scss": "/url-shortening-api/static/media/bg-boost-desktop.772154c9.svg",
+    "static/media/Shortener.scss": "/url-shortening-api/static/media/bg-shorten-desktop.0d9742f4.svg",
+    "static/media/illustration-working.c9b5ef54.svg": "/url-shortening-api/static/media/illustration-working.c9b5ef54.svg",
+    "static/media/logo.83464303.svg": "/url-shortening-api/static/media/logo.83464303.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91ef5806.js",
+    "static/js/2.c3917fe2.chunk.js",
+    "static/css/main.3370198a.chunk.css",
+    "static/js/main.14d07dc0.chunk.js"
+  ]
+}
