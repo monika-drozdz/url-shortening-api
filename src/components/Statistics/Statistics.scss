@@ -1,0 +1,77 @@
+@import "./../../assets/styles/colors.scss";
+.stat {
+	.stat-header {
+		text-align: center;
+		padding: 4em 15em;
+
+		h2 {
+			font-size: 36px;
+			color: $vdk-blue;
+		}
+	}
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	height: 20em;
+
+	&::after {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		height: 0.5em;
+		background: $cyan;
+		content: "";
+		width: 100%;
+		display: block;
+	}
+}
+
+.cards > * {
+	&:first-child {
+		align-self: flex-start;
+	}
+
+	&:nth-child(2) {
+		align-self: center;
+	}
+	&:last-child {
+		align-self: flex-end;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.stat {
+		.stat-header {
+			padding: 4em 1.5em;
+		}
+	}
+
+	.cards {
+		flex-direction: column;
+		align-items: center;
+		height: auto;
+
+		&::after {
+			width: 0.5em;
+			height: calc(100% - 15em);
+			top: 5em;
+			left: 50%;
+		}
+	}
+
+	.cards > * {
+		&:first-child {
+			align-self: center;
+		}
+
+		&:nth-child(2) {
+			align-self: center;
+		}
+		&:last-child {
+			align-self: center;
+		}
+	}
+}

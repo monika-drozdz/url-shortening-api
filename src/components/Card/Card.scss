@@ -1,0 +1,56 @@
+$cyan: hsl(180, 66%, 49%);
+$cyan-hover: hsl(180, 66%, 70%);
+
+$dark-violet: hsl(257, 27%, 26%);
+$red: hsl(0, 87%, 67%);
+$gray: hsl(0, 0%, 75%);
+$gray-bg: hsl(0, 0%, 80%);
+$bg: hsl(150, 7%, 95%);
+$grayish-violet: hsl(257, 7%, 63%);
+$vdk-blue: hsl(255, 11%, 22%);
+$vdk-violet: hsl(260, 8%, 14%);
+
+.card {
+	background: white;
+	padding: 1.5em;
+	width: 30%;
+	border-radius: 5px;
+	z-index: 10;
+
+	.icons {
+		width: 2em;
+		height: 2em;
+		border-radius: 50%;
+		background-color: $dark-violet;
+		padding: 2.5em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: -4.5em;
+		margin-bottom: 2em;
+	}
+
+	h3 {
+		color: $vdk-blue;
+		margin-bottom: 1em;
+	}
+
+	p {
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.card {
+		width: 90%;
+		margin: 3em 2em;
+		h3,
+		p {
+			text-align: center;
+		}
+	}
+	.icons {
+		margin-left: 50%;
+		transform: translate(-50%);
+	}
+}

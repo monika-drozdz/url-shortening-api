@@ -1,0 +1,58 @@
+@import "./../../assets/styles/colors.scss";
+.menu {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	padding: 6em 0;
+	position: relative;
+}
+.text-container {
+	width: 55%;
+	h1 {
+		font-size: 70px;
+		font-weight: 700;
+		color: $vdk-blue;
+	}
+
+	p {
+		color: $gray;
+		margin-bottom: 2em;
+	}
+}
+
+.header-image {
+	position: absolute;
+	right: -18em;
+	top: 2em;
+}
+@media screen and (max-width: 1200px) {
+	.text-container {
+		margin-bottom: 12em;
+		h1 {
+			font-size: 40px;
+		}
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.menu {
+		flex-direction: column-reverse;
+	}
+	.text-container {
+		width: 100%;
+		height: 50%;
+		margin-top: 25em;
+		text-align: center;
+		margin-bottom: 3em;
+	}
+}
+@media screen and (max-width: 480px) {
+	.text-container {
+		margin-top: 20em;
+	}
+	.header-image {
+		transform: scale(0.8);
+		transform-origin: top center;
+	}
+}

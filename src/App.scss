@@ -1,0 +1,56 @@
+@import "./assets/styles/colors.scss";
+
+.App {
+	overflow: hidden;
+}
+.App-header {
+	padding: 0 9em 4em 9em;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: $gray;
+}
+
+p {
+	color: $gray;
+}
+
+img {
+	display: inline-block;
+}
+
+button {
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+.content {
+	padding: 6em 9em;
+	background-color: $bg;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+	.App-header {
+		padding: 1.5em;
+	}
+
+	.content {
+		padding: 1.5em;
+	}
+}

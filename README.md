@@ -39,6 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/monika-drozdz/url-shortening-api](https://github.com/monika-drozdz/url-shortening-api)
+- Live Site URL: [https://monika-drozdz.github.io/url-shortening-api/](https://monika-drozdz.github.io/url-shortening-api/)
 
 ### Prerequisites
 
@@ -56,15 +57,15 @@ An adequate version of npm is installed. Here's the adequate version I use:
 
 Installation:
 
-`npm install`  
+`npm install`
 
-To Run Test Suite:  
+To Run Test Suite:
 
-`npm test`  
+`npm test`
 
 To Start Server:
 
-`npm start`  
+`npm start`
 
 To Visit App:
 
